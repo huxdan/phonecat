@@ -1,0 +1,17 @@
+{
+  "name": "phonecat",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "HXD <nbsg_huxiaodan@126.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="phonecatApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+  <script src="phone-list/phone-list.module.js"></script>
+  <script src="phone-list/phone-list.component.js"></script>
+  <script src="phone-detail/phone-detail.module.js"></script>
+  <script src="phone-detail/phone-detail.component.js"></script>
+</head>
+<body>
+  <!-- <phone-list></phone-list> -->
+  <a ui-sref="hello" ui-sref-active="active">Hello</a>
+  <a ui-sref="about" ui-sref-active="active">About</a>
+
+  <ui-view></ui-view>
+</body>
+</html>
